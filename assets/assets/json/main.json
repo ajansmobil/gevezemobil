@@ -1,0 +1,18 @@
+{
+  "project": {
+    "id": "com.gevezeajans.mobil",
+    "name": "Geveze Ajans",
+    "baseUrl": "https://api.gevezeajans.com"
+  },
+  "map_defaults": {
+    "lat": 37.0662,
+    "lng": 37.3833,
+    "zoom": 11.0
+  },
+  "langs": ["tr", "en"],
+  "lang_names": {
+    "tr": "Türkçe",
+    "en": "English"
+  },
+  "default": "tr"
+}
