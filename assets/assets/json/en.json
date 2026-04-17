@@ -297,6 +297,8 @@
   "admin.home.col_occupied_short": "Occupied",
   "admin.home.col_vacant_short": "Vacant",
   "admin.home.col_rate": "Rate %",
+  "admin.home.loc_stats_footer": "{occupied} / {total} occupied · {vacant} vacant",
+  "admin.home.chart_caption": "Vertical axis: total ad faces in the location. Colored: occupied. Gray: vacant.",
   "admin.home.stats_load_error": "Could not load statistics.",
   "admin.home.stats_empty": "No active ad units yet.",
   "admin.home.retry": "Retry",

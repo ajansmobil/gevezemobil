@@ -297,6 +297,8 @@
   "admin.home.col_occupied_short": "Dolu",
   "admin.home.col_vacant_short": "Boş",
   "admin.home.col_rate": "Oran %",
+  "admin.home.loc_stats_footer": "{occupied} / {total} dolu · {vacant} boş",
+  "admin.home.chart_caption": "Dikey eksen: lokasyondaki toplam reklam yüzü. Renkli bölüm dolu, gri bölüm boş.",
   "admin.home.stats_load_error": "İstatistikler yüklenemedi.",
   "admin.home.stats_empty": "Henüz aktif reklam yüzü yok.",
   "admin.home.retry": "Yenile",
