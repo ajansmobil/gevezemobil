@@ -20,6 +20,16 @@
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="Geveze Ajans Mobil">
 
+  <!--
+    Google Haritalar (Flutter Web / google_maps_flutter_web) — ZORUNLU.
+    Google Cloud Console: "Maps JavaScript API" etkin + API anahtari.
+    Uretim: HTTP referrer ile kisitlayin (or. https://mobil.gevezeajans.com/*).
+    Yerel: asagidaki AIzaSyD9MSSZWkz9GApWal0AoEZy5hHdVcE5cjw degerini gercek anahtarla degistirin
+    veya GitHub Actions secret MAPS_WEB_API_KEY ile build oncesi enjekte edin.
+    Android anahtari ayri olabilir; web icin referrer kisitli anahtar onerilir.
+  -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9MSSZWkz9GApWal0AoEZy5hHdVcE5cjw"></script>
+
   <!-- iOS meta etiketleri ve ana ekran ikonlari -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -46,7 +56,7 @@
   <!--
     You can customize the "flutter_bootstrap.js" script.
     This is useful to provide a custom configuration to the Flutter loader
-    or to give the user feedback during the initialization process.
+    or to provide the user feedback during the initialization process.
 
     For more details:
     * https://docs.flutter.dev/platform-integration/web/initialization
