@@ -20,14 +20,24 @@
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="Geveze Ajans Mobil">
 
-  <!-- iOS meta tags & icons -->
+  <!-- iOS meta etiketleri ve ana ekran ikonlari -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="gevezeajans">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <!--
+    Apple touch ikon: `pubspec.yaml` icindeki `assets/icon.png` tek kaynak.
+    Flutter web ciktisinda bu dosya kokten `assets/assets/icon.png` olarak
+    sunulur (ilk `assets/` Flutter varlik kok dizini; ikincisi projedeki
+    `assets/` klasoru). `web/icons/*.png` kopyalari tutulmaz.
+  -->
+  <link rel="apple-touch-icon" href="assets/assets/icon.png">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <!--
+    Tarayici sekmesi / yer imi favicon: yine `assets/icon.png` (tek kaynak).
+    `web/favicon.png` yerine bu yol kullanilir; boylece mobil launcher ile
+    ayni logo dosyasi web tarafinda da guncellenir.
+  -->
+  <link rel="icon" type="image/png" href="assets/assets/icon.png"/>
 
   <title>gevezeajans</title>
   <link rel="manifest" href="manifest.json">

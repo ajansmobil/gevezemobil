@@ -1,35 +1,55 @@
 {
-    "name": "gevezeajans",
-    "short_name": "gevezeajans",
-    "start_url": ".",
-    "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "Geveze Ajans Mobil",
-    "orientation": "portrait-primary",
-    "prefer_related_applications": false,
-    "icons": [
+  "name": "Geveze Ajans Mobil",
+  "short_name": "Geveze Ajans",
+  "description": "Geveze Ajans mobil uygulaması. Reklam envanteri, harita, kampanya ve ajans ile müşteri işlemleri.",
+  "lang": "tr",
+  "dir": "ltr",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui",
+    "browser"
+  ],
+  "orientation": "any",
+  "theme_color": "#0175C2",
+  "background_color": "#0175C2",
+  "categories": [
+    "business",
+    "productivity"
+  ],
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "icons": [
+    {
+      "src": "assets/assets/icon.png",
+      "sizes": "48x48 72x72 96x96 128x128 144x144 152x152 167x167 180x180 192x192 384x384 512x512 1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/assets/icon.png",
+      "sizes": "192x192 512x512 1024x1024",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Ana sayfa",
+      "short_name": "Ana",
+      "description": "Uygulamanın ana ekranını açar.",
+      "url": ".",
+      "icons": [
         {
-            "src": "icons/Icon-192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "icons/Icon-512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        },
-        {
-            "src": "icons/Icon-maskable-192.png",
-            "sizes": "192x192",
-            "type": "image/png",
-            "purpose": "maskable"
-        },
-        {
-            "src": "icons/Icon-maskable-512.png",
-            "sizes": "512x512",
-            "type": "image/png",
-            "purpose": "maskable"
+          "src": "assets/assets/icon.png",
+          "sizes": "192x192",
+          "type": "image/png"
         }
-    ]
+      ]
+    }
+  ]
 }
