@@ -18,6 +18,14 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <!--
+    Web surumu: ana HTML dokumaninin ve ust seviye navigasyonlarin CDN/tarayici cache'inde
+    eski surum kalmasini zorlastirir (kesin degil; asil cozum `flutter build web --pwa-strategy none`).
+    Statik dosyalar icin sunucu tarafinda Cache-Control da ayarlanmalidir (Pages / Workers).
+  -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <meta name="description" content="Geveze Ajans Mobil">
 
   <!--
