@@ -159,6 +159,7 @@
   "home.quick.settings": "Settings",
   "home.quick.settings_sub": "Theme, language, account",
   "home.section.offerings": "Outdoor solutions",
+  "home.cart_lines_badge": "Cart · {count}",
   "home.offering.billboard": "Billboard and mega light",
   "home.offering.digital": "Digital screens",
   "home.offering.raket": "Rocket ads",
