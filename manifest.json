@@ -1,7 +1,7 @@
 {
-  "name": "Geveze Ajans Mobil",
-  "short_name": "Geveze Ajans",
-  "description": "Geveze Ajans mobil uygulaması. Reklam envanteri, harita, kampanya ve ajans ile müşteri işlemleri.",
+  "name": "VE outdoor",
+  "short_name": "VE outdoor",
+  "description": "VE outdoor mobil uygulaması. Reklam envanteri, harita, kampanya ve ajans ile müşteri işlemleri.",
   "lang": "tr",
   "dir": "ltr",
   "start_url": ".",
