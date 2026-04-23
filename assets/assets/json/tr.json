@@ -478,6 +478,7 @@
   "reservation.cancelled": "Rezervasyon iptal edildi",
   "reservation.view_options": "Opsiyonlarıma Git",
   "reservation.empty_options": "Henüz opsiyonunuz yok.",
+  "reservation.empty_options_filtered": "Seçili filtreye uygun opsiyon yok.",
   "reservation.empty_completed": "Tamamlanmış satış yok.",
   "reservation.start_booking": "Rezervasyon Başlat",
   "reservation.price_estimate": "Tahmini Tutar",
@@ -526,6 +527,9 @@
   "wizard.review.price": "Tahmini Fiyat",
 
   "home.options_tab": "Opsiyonlarım",
+  "home.options_filter_all": "Tümü",
+  "home.options_filter_firm": "Firma",
+  "home.options_filter_clear": "Filtreyi temizle",
   "home.completed_tab": "Tamamlananlar",
   "home.quick_booking.title": "Hızlı Rezervasyon",
   "home.quick_booking.subtitle": "Bölge → Yüzey → Tarih → Onayla",

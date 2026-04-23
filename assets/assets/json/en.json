@@ -478,6 +478,7 @@
   "reservation.cancelled": "Reservation cancelled",
   "reservation.view_options": "Go to My Options",
   "reservation.empty_options": "You have no options yet.",
+  "reservation.empty_options_filtered": "No options match the selected filter.",
   "reservation.empty_completed": "No completed sales.",
   "reservation.start_booking": "Start Reservation",
   "reservation.price_estimate": "Estimated Price",
@@ -526,6 +527,9 @@
   "wizard.review.price": "Estimated Price",
 
   "home.options_tab": "My Options",
+  "home.options_filter_all": "All",
+  "home.options_filter_firm": "Company",
+  "home.options_filter_clear": "Clear filter",
   "home.completed_tab": "Completed",
   "home.quick_booking.title": "Quick Reservation",
   "home.quick_booking.subtitle": "Region → Surface → Dates → Confirm",
