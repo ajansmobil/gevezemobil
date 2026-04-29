@@ -1,7 +1,7 @@
 {
-  "name": "VE outdoor",
-  "short_name": "VE outdoor",
-  "description": "VE outdoor mobil uygulaması. Reklam envanteri, harita, kampanya ve ajans ile müşteri işlemleri.",
+  "name": "VEoutdoor",
+  "short_name": "VEoutdoor",
+  "description": "VEoutdoor mobil uygulaması. Reklam envanteri, harita, kampanya ve ajans ile müşteri işlemleri.",
   "lang": "tr",
   "dir": "ltr",
   "start_url": ".",

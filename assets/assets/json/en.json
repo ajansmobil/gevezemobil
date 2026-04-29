@@ -1,5 +1,5 @@
 {
-  "app.name": "VE outdoor",
+  "app.name": "VEoutdoor",
   "common.ok": "OK",
   "common.cancel": "Cancel",
   "common.retry": "Retry",
@@ -15,7 +15,7 @@
   "common.date_range": "{start} — {end}",
   "common.amount_with_currency": "{amount} {currency}",
 
-  "splash.title": "VE outdoor",
+  "splash.title": "VEoutdoor",
   "splash.slogan": "Gaziantep's most prestigious open-air agency",
 
   "login.title": "Sign In",
@@ -285,7 +285,7 @@
 
   "about.title": "About",
   "about.app_info_title": "About",
-  "about.app_info_body": "VE outdoor mobile app was built to serve our customers best.",
+  "about.app_info_body": "The VEoutdoor mobile app was built to serve our customers best.",
   "about.features_title": "Features",
   "about.feature.fast": "Fast and easy to use",
   "about.feature.secure": "Secure data management",

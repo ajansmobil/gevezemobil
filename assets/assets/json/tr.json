@@ -1,5 +1,5 @@
 {
-  "app.name": "VE outdoor",
+  "app.name": "VEoutdoor",
   "common.ok": "Tamam",
   "common.cancel": "İptal",
   "common.retry": "Yeniden Dene",
@@ -15,7 +15,7 @@
   "common.date_range": "{start} — {end}",
   "common.amount_with_currency": "{amount} {currency}",
 
-  "splash.title": "VE outdoor",
+  "splash.title": "VEoutdoor",
   "splash.slogan": "Gaziantep'in en prestijli açık hava ajansı",
 
   "login.title": "Giriş Yap",
@@ -285,7 +285,7 @@
 
   "about.title": "Hakkında",
   "about.app_info_title": "Hakkında",
-  "about.app_info_body": "VE outdoor mobil uygulaması, müşterilerimize en iyi hizmeti sunmak için geliştirilmiştir.",
+  "about.app_info_body": "VEoutdoor mobil uygulaması, müşterilerimize en iyi hizmeti sunmak için geliştirilmiştir.",
   "about.features_title": "Özellikler",
   "about.feature.fast": "Hızlı ve kolay kullanım",
   "about.feature.secure": "Güvenli veri yönetimi",
