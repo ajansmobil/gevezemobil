@@ -1,0 +1,17 @@
+# Cloudflare Pages / statik barindirici: bu dosya build ciktisi kokune kopyalanir (`web/` -> `build/web/`).
+# HTML ve manifest her istekte yeniden dogrulanir; hash'li Flutter varliklari uzun omurlu cache kalabilir.
+
+/index.html
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/manifest.json
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/flutter_bootstrap.js
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/flutter.js
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/flutter_service_worker.js
+  Cache-Control: no-cache, no-store, must-revalidate

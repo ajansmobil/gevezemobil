@@ -58,17 +58,46 @@
   <link rel="icon" type="image/png" href="assets/assets/icon.png"/>
 
   <title>VEoutdoor</title>
-  <link rel="manifest" href="manifest.json">
+  <!--
+    manifest.json degistiginde tarayici eski dosyayi tutabilir; ?v= surumunu artirin.
+  -->
+  <link rel="manifest" href="manifest.json?v=2">
 </head>
 <body>
   <!--
-    You can customize the "flutter_bootstrap.js" script.
-    This is useful to provide a custom configuration to the Flutter loader
-    or to provide the user feedback during the initialization process.
-
-    For more details:
-    * https://docs.flutter.dev/platform-integration/web/initialization
+    Flutter Web onbellek notu:
+    - Meta Cache-Control HTML'i CDN'den koruyamaz; eski service worker main.dart.js tutar.
+    - Kalici: `flutter build web --release --pwa-strategy none` (bkz. build_web.ps1) + sunucu basliklari (web/_headers).
+    - Asagidaki script: once SW + Cache Storage temizlenir, sonra flutter_bootstrap yuklenir (yaris kosulu olmaz).
   -->
-  <script src="flutter_bootstrap.js" async></script>
+  <script>
+    (function () {
+      function loadFlutterBootstrap() {
+        var s = document.createElement('script');
+        s.src = 'flutter_bootstrap.js';
+        s.async = true;
+        document.body.appendChild(s);
+      }
+      var p = Promise.resolve();
+      if ('serviceWorker' in navigator) {
+        p = p.then(function () {
+          return navigator.serviceWorker.getRegistrations();
+        }).then(function (regs) {
+          return Promise.all(regs.map(function (r) { return r.unregister(); }));
+        });
+      }
+      if ('caches' in window) {
+        p = p.then(function () {
+          return caches.keys();
+        }).then(function (keys) {
+          return Promise.all(keys.map(function (k) { return caches.delete(k); }));
+        });
+      }
+      p.then(loadFlutterBootstrap).catch(function (e) {
+        console.warn('VEoutdoor: onbellek temizligi', e);
+        loadFlutterBootstrap();
+      });
+    })();
+  </script>
 </body>
 </html>
