@@ -14,6 +14,8 @@
   "common.numeric_placeholder": "{n}",
   "common.date_range": "{start} — {end}",
   "common.amount_with_currency": "{amount} {currency}",
+  "common.load_more": "Load more",
+  "common.list_showing": "{shown} / {total}",
 
   "splash.title": "VEoutdoor",
   "splash.slogan": "Gaziantep's most prestigious open-air agency",
@@ -249,6 +251,9 @@
   "messages.context_ad_unit_label": "Ad unit",
   "messages.inquiry_banner_hint": "Messages you send below are linked to this unit; tap X to stop attaching it.",
   "messages.inquiry_dismiss_tooltip": "Remove ad unit context",
+  "messages.unread_count": "{count}",
+  "messages.read": "Read",
+  "messages.delivered": "Delivered",
   "profile.preview.subtitle": "Account summary",
   "profile.preview.shortcuts": "Shortcuts",
   "profile.role.admin": "Admin",
@@ -520,6 +525,8 @@
   "admin.ad_unit_type_rules.intro": "All surfaces of this type use the period rules below.",
   "admin.ad_unit_type_rules.open_units": "Surfaces of this type",
   "admin.ad_unit_type_rules.admin_label": "Admin label (internal)",
+  "admin.ad_unit_type_rules.option_hold_days": "Option hold (days)",
+  "admin.ad_unit_type_rules.option_hold_hint": "New options of this type expire after {n} days.",
 
   "admin.users.title": "Users",
   "admin.users.search": "Search",
@@ -665,6 +672,7 @@
   "wizard.booking_fixed_days_hint": "This unit requires exactly {n} days.",
   "wizard.booking_weekly_hint": "Weekly booking: start on {day}; duration must be a multiple of 7 days.",
   "wizard.booking_monthly_hint": "Monthly booking: start aligns to day {d}; end must be the last day of a month.",
+  "wizard.option_hold_hint": "Option hold period: {n} days",
   "wizard.date_step_hint": "Change month with the arrows. Tap start day, then end day (one tap for a single day). Continue to list available units.",
   "wizard.check_in": "Start",
   "wizard.check_out": "End",
@@ -731,6 +739,7 @@
 
   "admin.reservations.title": "Reservations",
   "admin.reservations.empty": "No reservations yet.",
+  "admin.create_quote.option_hold_hint": "When Option is selected, expiry follows each surface type’s hold days.",
   "admin.create_quote.title": "Create Quote",
   "admin.create_quote.intro": "Create a past or future quote / reservation record on behalf of a user. You can add multiple ad surfaces.",
   "admin.create_quote.user_label": "User",

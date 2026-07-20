@@ -14,6 +14,8 @@
   "common.numeric_placeholder": "{n}",
   "common.date_range": "{start} — {end}",
   "common.amount_with_currency": "{amount} {currency}",
+  "common.load_more": "Daha fazla",
+  "common.list_showing": "{shown} / {total}",
 
   "splash.title": "VEoutdoor",
   "splash.slogan": "Gaziantep'in en prestijli açık hava ajansı",
@@ -249,6 +251,9 @@
   "messages.context_ad_unit_label": "Reklam yüzü",
   "messages.inquiry_banner_hint": "Aşağıdan yazdığınız mesajlar bu yüzle ilişkilendirilir; X ile bağlamı kaldırabilirsiniz.",
   "messages.inquiry_dismiss_tooltip": "Reklam yüzü bağlamını kaldır",
+  "messages.unread_count": "{count}",
+  "messages.read": "Okundu",
+  "messages.delivered": "İletildi",
   "profile.preview.subtitle": "Hesap özeti",
   "profile.preview.shortcuts": "Kısayollar",
   "profile.role.admin": "Yönetici",
@@ -520,6 +525,8 @@
   "admin.ad_unit_type_rules.intro": "Bu türdeki tüm yüzeyler aşağıdaki periyot kurallarını kullanır.",
   "admin.ad_unit_type_rules.open_units": "Bu türdeki yüzeyler",
   "admin.ad_unit_type_rules.admin_label": "Yönetici etiketi (iç not)",
+  "admin.ad_unit_type_rules.option_hold_days": "Opsiyon süresi (gün)",
+  "admin.ad_unit_type_rules.option_hold_hint": "Bu türde yeni opsiyonlar {n} gün sonra otomatik düşer.",
 
   "admin.users.title": "Kullanıcılar",
   "admin.users.search": "Ara",
@@ -665,6 +672,7 @@
   "wizard.booking_fixed_days_hint": "Bu yüz için süre tam olarak {n} gün olmalıdır.",
   "wizard.booking_weekly_hint": "Haftalık yayın: başlangıç {day}, süre 7 günün katı olmalıdır.",
   "wizard.booking_monthly_hint": "Aylık yayın: başlangıç ayın {d}. gününe hizalı; bitiş ayın son günü olmalıdır.",
+  "wizard.option_hold_hint": "Opsiyon tutma süresi: {n} gün",
   "wizard.date_step_hint": "Ayı üstteki oklarla değiştirin. Önce yayın başlangıç gününe, sonra bitiş gününe dokunun (tek günlük için tek güne dokunun). Devam ile müsait yüzler listelenir.",
   "wizard.check_in": "Başlangıç",
   "wizard.check_out": "Bitiş",
@@ -731,6 +739,7 @@
 
   "admin.reservations.title": "Rezervasyonlar",
   "admin.reservations.empty": "Henüz rezervasyon yok.",
+  "admin.create_quote.option_hold_hint": "Opsiyon seçildiğinde süre, yüzey türünün opsiyon gününe göre hesaplanır.",
   "admin.create_quote.title": "Teklif Oluştur",
   "admin.create_quote.intro": "Bir kullanıcı adına geçmiş veya gelecek tarihli teklif / rezervasyon kaydı oluşturun. Birden fazla reklam yüzü ekleyebilirsiniz.",
   "admin.create_quote.user_label": "Kullanıcı",
