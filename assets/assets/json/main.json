@@ -2,7 +2,8 @@
   "project": {
     "id": "com.gevezeajans.mobil",
     "name": "VEoutdoor",
-    "baseUrl": "https://api.gevezeajans.com"
+    "baseUrl": "https://api.gevezeajans.com",
+    "released_at": "2026-08-18"
   },
   "map_defaults": {
     "lat": 37.0662,
