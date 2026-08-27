@@ -3,6 +3,7 @@
   "common.ok": "Tamam",
   "common.cancel": "İptal",
   "common.retry": "Yeniden Dene",
+  "common.back": "Geri",
   "common.save": "Kaydet",
   "common.delete": "Sil",
   "common.error": "Bir hata oluştu",
@@ -16,10 +17,8 @@
   "common.amount_with_currency": "{amount} {currency}",
   "common.load_more": "Daha fazla",
   "common.list_showing": "{shown} / {total}",
-
   "splash.title": "VEoutdoor",
   "splash.slogan": "Gaziantep'in en prestijli açık hava ajansı",
-
   "login.title": "Giriş Yap",
   "login.submit": "Giriş Yap",
   "login.email_label": "E-posta veya kullanıcı adı",
@@ -32,7 +31,6 @@
   "login.validation.password_required": "Şifre gerekli",
   "login.validation.password_short": "En az 8 karakter",
   "login.error_prefix": "Giriş hatası",
-
   "register.title": "Kayıt Ol",
   "register.submit": "Kayıt Ol",
   "register.full_name_label": "Ad Soyad",
@@ -65,7 +63,6 @@
   "register.validation.password_lower": "Küçük harf gerekli",
   "register.validation.password_digit": "Rakam gerekli",
   "register.validation.password_mismatch": "Şifreler eşleşmiyor",
-
   "forgot.title": "Şifre Sıfırlama",
   "forgot.info": "Şifrenizi sıfırlamak için e-posta adresinizi girin.",
   "forgot.email_label": "E-posta",
@@ -76,7 +73,6 @@
   "forgot.error_prefix": "Hata",
   "forgot.validation.email_required": "E-posta gerekli",
   "forgot.validation.email_invalid": "Geçerli e-posta girin",
-
   "home.title": "Ana Sayfa",
   "home.welcome": "Hoş Geldiniz!",
   "home.subtitle": "Bugün neler yapacaksınız?",
@@ -263,16 +259,13 @@
   "profile.role.marketer": "Pazarlamacı",
   "profile.role.customer": "Müşteri",
   "profile.role.label": "Hesap Türü",
-
   "profile.title": "Profil",
   "profile.full_name_placeholder": "Kullanıcı Adı",
   "profile.email": "E-posta",
   "profile.phone": "Telefon",
-  "profile.phone": "Telefon",
   "profile.edit": "Profili Düzenle",
   "profile.edit.identity_hint": "Ad, kullanıcı adı ve e-posta yalnızca yönetici tarafından değiştirilebilir. Firma bilgilerinizi aşağıdan düzenleyebilirsiniz.",
   "profile.edit.company_cta": "Firma Bilgilerini Düzenle",
-  "profile.phone": "Telefon",
   "profile.logout": "Çıkış Yap",
   "profile.logout_confirm_title": "Çıkış Yap",
   "profile.logout_confirm_body": "Çıkış yapmak istediğinizden emin misiniz?",
@@ -284,7 +277,6 @@
   "profile.copy_tooltip": "Panoya kopyala",
   "profile.copied": "Panoya kopyalandı",
   "profile.stale_hint": "Sunucudan güncelleme alınamadı; yerel önbellek gösteriliyor.",
-
   "settings.title": "Ayarlar",
   "settings.section.appearance": "Görünüm",
   "settings.section.account": "Hesap",
@@ -310,7 +302,6 @@
   "settings.version": "Versiyon",
   "settings.build": "Build",
   "settings.about": "Hakkında",
-
   "about.title": "Hakkında",
   "about.app_info_title": "Hakkında",
   "about.app_info_body": "VEoutdoor mobil uygulaması, müşterilerimize en iyi hizmeti sunmak için geliştirilmiştir.",
@@ -322,7 +313,6 @@
   "about.privacy_title": "Gizlilik ve KVKK",
   "about.privacy_body": "Kişisel verileriniz yalnızca hizmet sunumu, kampanya yönetimi ve yasal yükümlülükler kapsamında işlenir. Hesap bilgileriniz güvenli bağlantı üzerinden aktarılır; oturum belirteçleri cihazınızın güvenli depolama alanında saklanır. Veri silme veya düzeltme talepleriniz için uygulama içi mesaj veya ajans iletişim kanallarını kullanabilirsiniz.",
   "about.fcm_notice": "İsteğe bağlı anlık bildirimler: Firebase kurulumu tamamlandığında cihaz tokenı sunucuya kaydedilir; şu an yalnızca hesaplı kullanıcılar için API hazırdır.",
-
   "ad_units.list.title": "Müsait Alanlar",
   "ad_units.list.empty": "Henüz reklam yüzü eklenmemiş.",
   "ad_units.list.pick_date": "Müsait alanları görmek için önce yayın tarih aralığını seçin.",
@@ -386,7 +376,6 @@
   "admin.ad_units.megalight_face": "Mega light yüzü (A / B)",
   "home.map.marker_sheet.raket_face": "Raket yüzü",
   "home.map.marker_sheet.megalight_face": "Mega light yüzü",
-
   "ad_unit.detail.title": "Reklam Yüzü",
   "ad_unit.detail.location": "Lokasyon",
   "ad_unit.detail.type": "Tür",
@@ -409,7 +398,6 @@
   "ad_unit.detail.taken": "Bu yüz alınmış",
   "ad_unit.detail.contact_cta": "Bilgi Al",
   "ad_unit.detail.ask_info": "Ajansa yaz",
-
   "campaigns.revise.button": "Revize Et",
   "campaigns.extend.button": "Uzat",
   "campaigns.extend.payment_title": "Ödeme onayı",
@@ -425,7 +413,6 @@
   "campaigns.status.completed": "Tamamlandı",
   "campaigns.status.cancelled": "İptal",
   "campaigns.warning_45_days": "Son 45 gün!",
-
   "campaign.status.active": "Aktif",
   "campaign.status.completed": "Tamamlandı",
   "campaign.status.cancelled": "İptal",
@@ -438,7 +425,6 @@
   "campaigns.retired.go_admin_reservations": "Rezervasyonlar (admin)",
   "my_campaigns.title": "Kampanyalarım",
   "my_campaigns.empty": "Henüz aldığınız bir reklam yüzü yok.",
-
   "admin.home.title": "Yönetici",
   "admin.home.occupancy_title": "Doluluk oranı",
   "admin.home.occupancy_sub": "Gaziantep ağında bugün aktif rezervasyonu olan reklam yüzleri",
@@ -477,7 +463,6 @@
   "admin.locations.field_address": "Adres",
   "admin.locations.field_lat": "Enlem",
   "admin.locations.field_lng": "Boylam",
-
   "admin.ad_units.title": "Reklam Yüzleri",
   "admin.ad_units.type_filter_chip": "Tür: {type}",
   "admin.ad_units.empty_for_type_filter": "Bu türde kayıtlı yüzey yok. Filtreyi kaldırarak tüm envanteri görebilirsiniz.",
@@ -532,7 +517,6 @@
   "admin.ad_unit_type_rules.admin_label": "Yönetici etiketi (iç not)",
   "admin.ad_unit_type_rules.option_hold_days": "Opsiyon süresi (gün)",
   "admin.ad_unit_type_rules.option_hold_hint": "Bu türde yeni opsiyonlar {n} gün sonra otomatik düşer.",
-
   "admin.users.title": "Kullanıcılar",
   "admin.users.search": "Ara",
   "admin.users.all": "Hepsi",
@@ -547,7 +531,6 @@
   "admin.users.delete_tooltip": "Kullanıcıyı kalıcı sil",
   "admin.users.delete_confirm": "Bu kullanıcı kalıcı olarak silinsin mi?",
   "admin.users.deleted": "Kullanıcı silindi",
-
   "admin.carts.title": "Üye sepetleri",
   "admin.carts.detail_title": "Sepet detayı",
   "admin.carts.empty": "Sepette satırı olan müşteri veya ajans yok.",
@@ -557,7 +540,6 @@
   "admin.carts.qty": "Adet",
   "admin.carts.member_empty": "Bu üyenin sepetinde satır yok.",
   "admin.carts.list_member_subtitle": "{email}\n{role} · {updated}",
-
   "home.customer.reservation_empty": "Henüz aktif rezervasyonunuz yok.",
   "home.reservation_preview.ends": "Bitiş: {date}",
   "ad_unit.detail.active_reservation": "Aktif rezervasyon",
@@ -567,7 +549,6 @@
   "admin.campaigns.override.end_date": "Yeni Bitiş Tarihi",
   "admin.campaigns.override.owner": "Yeni Sahip",
   "admin.campaigns.override.confirm": "Kaydet",
-
   "admin.reorder.title": "Sıra",
   "admin.reorder.save": "Sırayı Kaydet",
   "admin.map_settings.title": "Harita Başlangıç Ayarı",
@@ -578,11 +559,9 @@
   "admin.map_settings.lat_range": "Enlem -90 ile 90 arasında olmalıdır.",
   "admin.map_settings.lng_range": "Boylam -180 ile 180 arasında olmalıdır.",
   "admin.map_settings.zoom_range": "Zoom 3 ile 22 arasında olmalıdır.",
-
   "settings.section.admin": "Yönetici",
   "settings.admin.subtitle": "Lokasyon, reklam yüzü, kullanıcı ve kampanya yönetimi",
   "settings.admin.carts.subtitle": "Müşteri ve ajansların sepetindeki reklam yüzlerini görüntüle",
-
   "errors.forbidden": "Bu işlem için yetkiniz yok.",
   "errors.session_expired": "Oturum süresi doldu",
   "errors.empty_response": "Sunucu boş cevap döndürdü",
@@ -604,13 +583,11 @@
   "errors.booking_month_end": "Aylık yayında bitiş, takvim ayının son günü olmalıdır.",
   "errors.booking_month_order": "Bitiş ayı başlangıçtan önce olamaz.",
   "errors.wizard_reauth": "Oturum geçersiz veya süresi dolmuş. Lütfen tekrar giriş yapın.",
-
   "common.continue": "Devam Et",
   "common.days": "gün",
   "common.all": "Tümü",
   "common.note": "Not",
   "common.logout": "Çıkış Yap",
-
   "reservation.create_option": "Opsiyona Al",
   "reservation.confirm": "Onayla",
   "reservation.option_admin_pending": "Opsiyonu yalnızca yönetici onaylayabilir; onay bekleniyor.",
@@ -647,7 +624,6 @@
   "reservation.summary": "Rezervasyon Özeti",
   "reservation.start": "Başlangıç",
   "reservation.end": "Bitiş",
-
   "wizard.title": "Reklam Alanı Rezervasyonu",
   "wizard.step.region": "Bölge",
   "wizard.step.surface": "Tür",
@@ -704,7 +680,6 @@
   "wizard.review.unit": "Reklam Yüzü",
   "wizard.review.dates": "Tarih Aralığı",
   "wizard.review.price": "Tahmini Fiyat",
-
   "home.options_tab": "Opsiyonlarım",
   "home.options_filter_all": "Tümü",
   "home.options_filter_firm": "Firma",
@@ -756,7 +731,6 @@
   "home.quick_booking.title": "Hızlı Rezervasyon",
   "home.quick_booking.subtitle": "Tür → Adet → Tarih → Bölge → Sonuç",
   "home.quick_booking.cta": "Reklam Alanı Rezerve Et",
-
   "approval.pending_title": "Onay Bekleniyor",
   "approval.pending_body": "Hesabınız yönetici onayı bekliyor. Onaylandığında bildirim alacaksınız.",
   "approval.check_again": "Yeniden Kontrol Et",
@@ -764,7 +738,6 @@
   "approval.rejected_title": "Hesap Reddedildi",
   "approval.rejected_body": "Üyelik başvurunuz reddedildi. Detay için iletişime geçin.",
   "approval.rejected_reason": "Ret nedeni: {reason}",
-
   "admin.users.approve_confirm_title": "Üyeyi onayla",
   "admin.users.approve_confirm_body": "Bu üyenin hesabını aktifleştirmek istiyor musunuz?",
   "admin.users.approval_status.pending": "Onay bekliyor",
@@ -781,7 +754,6 @@
   "admin.pending_users.title": "Bekleyen Onaylar",
   "admin.pending_users.empty": "Bekleyen onay yok.",
   "admin.pending_users.username_display": "@{username}",
-
   "admin.reservations.title": "Rezervasyonlar",
   "admin.reservations.empty": "Henüz rezervasyon yok.",
   "admin.create_quote.option_hold_hint": "Opsiyon seçildiğinde süre, yüzey türünün opsiyon gününe göre hesaplanır.",
@@ -809,7 +781,6 @@
   "admin.create_quote.date_required": "Lütfen yayın tarih aralığı seçin.",
   "admin.create_quote.duplicate_surface": "Aynı reklam yüzü için çakışan tarih aralıkları seçilemez.",
   "admin.create_quote.no_ad_units": "Kayıtlı reklam yüzü yok. Önce envantere yüzey ekleyin.",
-
   "profile.section.company": "Firma Bilgileri",
   "profile.company.name": "Firma Adı",
   "profile.company.tax_id": "Vergi No",
@@ -826,7 +797,6 @@
   "profile.avatar.remove": "Fotoğrafı kaldır",
   "profile.avatar.busy": "Yükleniyor…",
   "profile.avatar.removed": "Profil fotoğrafı kaldırıldı",
-
   "pdf.download_filled": "PDF İndir (Dolu)",
   "pdf.download_empty": "PDF İndir (Boş Form)",
   "pdf.downloading": "PDF indiriliyor...",
@@ -837,5 +807,17 @@
   "pdf.batch_downloading": "{n} PDF indiriliyor…",
   "pdf.batch_done_ok": "{n} PDF kaydedildi.",
   "pdf.batch_done_partial": "{ok} PDF kaydedildi, {fail} indirilemedi.",
-  "reservation.options_download_pdf": "PDF indir"
+  "reservation.options_download_pdf": "PDF indir",
+  "wizard.places.parent_subtitle": "Önce üst bölgeyi açın; rezervasyon için alt yer veya yüzey türünü seçersiniz.",
+  "wizard.places.child_subtitle": "Üst kategori seçilmez. LED, megalit gibi yüzey türünü veya alt yeri seçin; tarihler alttan açılır.",
+  "wizard.places.surface_section": "Yüzey türleri",
+  "wizard.places.leaves_section": "Alt yerler",
+  "wizard.places.pick_dates": "Tarih seç",
+  "wizard.places.selected_then_dates": "{n} yer · tarih seç",
+  "wizard.preview.title": "Seçiminizin takvim önizlemesi",
+  "wizard.preview.hint": "Sonuç listesinden önce yayın aralığını kontrol edin. Değiştirmek için tarihi düzenleyin.",
+  "wizard.preview.edit_dates": "Tarihleri düzenle",
+  "wizard.date.sheet_hint": "Uygun günlere dokunun; onaylayınca takvim önizlemesine geçilir.",
+  "wizard.date.sheet_confirm": "Önizlemeye geç",
+  "wizard.step.preview": "Önizleme"
 }

@@ -3,6 +3,7 @@
   "common.ok": "OK",
   "common.cancel": "Cancel",
   "common.retry": "Retry",
+  "common.back": "Back",
   "common.save": "Save",
   "common.delete": "Delete",
   "common.error": "An error occurred",
@@ -16,10 +17,8 @@
   "common.amount_with_currency": "{amount} {currency}",
   "common.load_more": "Load more",
   "common.list_showing": "{shown} / {total}",
-
   "splash.title": "VEoutdoor",
   "splash.slogan": "Gaziantep's most prestigious open-air agency",
-
   "login.title": "Sign In",
   "login.submit": "Sign In",
   "login.email_label": "Email or username",
@@ -32,7 +31,6 @@
   "login.validation.password_required": "Password is required",
   "login.validation.password_short": "Must be at least 8 characters",
   "login.error_prefix": "Sign-in error",
-
   "register.title": "Register",
   "register.submit": "Register",
   "register.full_name_label": "Full Name",
@@ -65,7 +63,6 @@
   "register.validation.password_lower": "Must contain lowercase letter",
   "register.validation.password_digit": "Must contain a digit",
   "register.validation.password_mismatch": "Passwords do not match",
-
   "forgot.title": "Reset Password",
   "forgot.info": "Enter your email to reset your password.",
   "forgot.email_label": "Email",
@@ -76,7 +73,6 @@
   "forgot.error_prefix": "Error",
   "forgot.validation.email_required": "Email is required",
   "forgot.validation.email_invalid": "Enter a valid email",
-
   "home.title": "Home",
   "home.welcome": "Welcome!",
   "home.subtitle": "What will you do today?",
@@ -263,16 +259,13 @@
   "profile.role.marketer": "Marketer",
   "profile.role.customer": "Customer",
   "profile.role.label": "Account Type",
-
   "profile.title": "Profile",
   "profile.full_name_placeholder": "Username",
   "profile.email": "Email",
   "profile.phone": "Phone",
-  "profile.phone": "Phone",
   "profile.edit": "Edit Profile",
   "profile.edit.identity_hint": "Name, username and email can only be changed by an administrator. You can edit your company details below.",
   "profile.edit.company_cta": "Edit Company Info",
-  "profile.phone": "Phone",
   "profile.logout": "Sign Out",
   "profile.logout_confirm_title": "Sign Out",
   "profile.logout_confirm_body": "Are you sure you want to sign out?",
@@ -284,7 +277,6 @@
   "profile.copy_tooltip": "Copy to clipboard",
   "profile.copied": "Copied to clipboard",
   "profile.stale_hint": "Could not refresh from server; showing cached data.",
-
   "settings.title": "Settings",
   "settings.section.appearance": "Appearance",
   "settings.section.account": "Account",
@@ -310,7 +302,6 @@
   "settings.version": "Version",
   "settings.build": "Build",
   "settings.about": "About",
-
   "about.title": "About",
   "about.app_info_title": "About",
   "about.app_info_body": "The VEoutdoor mobile app was built to serve our customers best.",
@@ -322,7 +313,6 @@
   "about.privacy_title": "Privacy & GDPR/KVKK",
   "about.privacy_body": "We process personal data only to provide the service, manage campaigns, and meet legal obligations. Account data is sent over HTTPS; session tokens are stored in the device secure storage. To request deletion or correction, use in-app messages or the agency contact channels.",
   "about.fcm_notice": "Optional push: when Firebase is configured, the device token is sent to our API; the backend endpoint is ready for signed-in users.",
-
   "ad_units.list.title": "Available Spaces",
   "ad_units.list.empty": "No ad units yet.",
   "ad_units.list.pick_date": "Select a broadcast date range to see available spaces.",
@@ -386,7 +376,6 @@
   "admin.ad_units.megalight_face": "Mega light face (A / B)",
   "home.map.marker_sheet.raket_face": "Rocket face",
   "home.map.marker_sheet.megalight_face": "Mega light face",
-
   "ad_unit.detail.title": "Ad Unit",
   "ad_unit.detail.location": "Location",
   "ad_unit.detail.type": "Type",
@@ -409,7 +398,6 @@
   "ad_unit.detail.taken": "Taken",
   "ad_unit.detail.contact_cta": "Get Info",
   "ad_unit.detail.ask_info": "Message agency",
-
   "campaigns.revise.button": "Revise",
   "campaigns.extend.button": "Extend",
   "campaigns.extend.payment_title": "Payment confirmation",
@@ -425,7 +413,6 @@
   "campaigns.status.completed": "Completed",
   "campaigns.status.cancelled": "Cancelled",
   "campaigns.warning_45_days": "Last 45 days!",
-
   "campaign.status.active": "Active",
   "campaign.status.completed": "Completed",
   "campaign.status.cancelled": "Cancelled",
@@ -438,7 +425,6 @@
   "campaigns.retired.go_admin_reservations": "Reservations (admin)",
   "my_campaigns.title": "My Campaigns",
   "my_campaigns.empty": "You don't own any ad units yet.",
-
   "admin.home.title": "Admin",
   "admin.home.occupancy_title": "Occupancy rate",
   "admin.home.occupancy_sub": "Ad units in the Gaziantep network with an active reservation today",
@@ -477,7 +463,6 @@
   "admin.locations.field_address": "Address",
   "admin.locations.field_lat": "Latitude",
   "admin.locations.field_lng": "Longitude",
-
   "admin.ad_units.title": "Ad Units",
   "admin.ad_units.type_filter_chip": "Type: {type}",
   "admin.ad_units.empty_for_type_filter": "No units for this type. Clear the filter to see full inventory.",
@@ -532,7 +517,6 @@
   "admin.ad_unit_type_rules.admin_label": "Admin label (internal)",
   "admin.ad_unit_type_rules.option_hold_days": "Option hold (days)",
   "admin.ad_unit_type_rules.option_hold_hint": "New options of this type expire after {n} days.",
-
   "admin.users.title": "Users",
   "admin.users.search": "Search",
   "admin.users.all": "All",
@@ -547,7 +531,6 @@
   "admin.users.delete_tooltip": "Permanently delete user",
   "admin.users.delete_confirm": "Permanently delete this user?",
   "admin.users.deleted": "User deleted",
-
   "admin.carts.title": "Member carts",
   "admin.carts.detail_title": "Cart detail",
   "admin.carts.empty": "No customer or agency has items in their cart.",
@@ -557,7 +540,6 @@
   "admin.carts.qty": "Qty",
   "admin.carts.member_empty": "This member's cart has no lines.",
   "admin.carts.list_member_subtitle": "{email}\n{role} · {updated}",
-
   "home.customer.reservation_empty": "You have no active reservations yet.",
   "home.reservation_preview.ends": "Ends: {date}",
   "ad_unit.detail.active_reservation": "Active reservation",
@@ -567,7 +549,6 @@
   "admin.campaigns.override.end_date": "New End Date",
   "admin.campaigns.override.owner": "New Owner",
   "admin.campaigns.override.confirm": "Save",
-
   "admin.reorder.title": "Order",
   "admin.reorder.save": "Save Order",
   "admin.map_settings.title": "Map Startup Settings",
@@ -578,11 +559,9 @@
   "admin.map_settings.lat_range": "Latitude must be between -90 and 90.",
   "admin.map_settings.lng_range": "Longitude must be between -180 and 180.",
   "admin.map_settings.zoom_range": "Zoom must be between 3 and 22.",
-
   "settings.section.admin": "Admin",
   "settings.admin.subtitle": "Manage locations, ad units, users and campaigns",
   "settings.admin.carts.subtitle": "View ad units in customer and agency carts",
-
   "errors.forbidden": "You don't have permission for this action.",
   "errors.session_expired": "Session expired",
   "errors.empty_response": "Server returned an empty response",
@@ -604,13 +583,11 @@
   "errors.booking_month_end": "For monthly booking the end date must be the last day of a calendar month.",
   "errors.booking_month_order": "The end month cannot be before the start month.",
   "errors.wizard_reauth": "Session expired or invalid. Please sign in again.",
-
   "common.continue": "Continue",
   "common.days": "days",
   "common.all": "All",
   "common.note": "Note",
   "common.logout": "Log Out",
-
   "reservation.create_option": "Reserve as Option",
   "reservation.confirm": "Confirm",
   "reservation.option_admin_pending": "Only an administrator can confirm this option; awaiting approval.",
@@ -647,7 +624,6 @@
   "reservation.summary": "Reservation Summary",
   "reservation.start": "Start",
   "reservation.end": "End",
-
   "wizard.title": "Ad Space Reservation",
   "wizard.step.region": "Region",
   "wizard.step.surface": "Type",
@@ -704,7 +680,6 @@
   "wizard.review.unit": "Ad Unit",
   "wizard.review.dates": "Date Range",
   "wizard.review.price": "Estimated Price",
-
   "home.options_tab": "My Options",
   "home.options_filter_all": "All",
   "home.options_filter_firm": "Company",
@@ -756,7 +731,6 @@
   "home.quick_booking.title": "Quick Reservation",
   "home.quick_booking.subtitle": "Type → Qty → Dates → Region → Results",
   "home.quick_booking.cta": "Reserve Ad Space",
-
   "approval.pending_title": "Approval Pending",
   "approval.pending_body": "Your account is awaiting admin approval. You'll be notified once approved.",
   "approval.check_again": "Check Again",
@@ -764,7 +738,6 @@
   "approval.rejected_title": "Account Rejected",
   "approval.rejected_body": "Your membership application was rejected. Contact us for details.",
   "approval.rejected_reason": "Rejection reason: {reason}",
-
   "admin.users.approve_confirm_title": "Approve member",
   "admin.users.approve_confirm_body": "Activate this member account?",
   "admin.users.approval_status.pending": "Pending approval",
@@ -781,7 +754,6 @@
   "admin.pending_users.title": "Pending Approvals",
   "admin.pending_users.empty": "No pending approvals.",
   "admin.pending_users.username_display": "@{username}",
-
   "admin.reservations.title": "Reservations",
   "admin.reservations.empty": "No reservations yet.",
   "admin.create_quote.option_hold_hint": "When Option is selected, expiry follows each surface type’s hold days.",
@@ -809,7 +781,6 @@
   "admin.create_quote.date_required": "Please select a broadcast date range.",
   "admin.create_quote.duplicate_surface": "Overlapping date ranges are not allowed for the same ad unit.",
   "admin.create_quote.no_ad_units": "No ad units available. Add inventory surfaces first.",
-
   "profile.section.company": "Company Info",
   "profile.company.name": "Company Name",
   "profile.company.tax_id": "Tax ID",
@@ -826,7 +797,6 @@
   "profile.avatar.remove": "Remove photo",
   "profile.avatar.busy": "Uploading…",
   "profile.avatar.removed": "Profile photo removed",
-
   "pdf.download_filled": "Download PDF (Filled)",
   "pdf.download_empty": "Download PDF (Blank Form)",
   "pdf.downloading": "Downloading PDF...",
@@ -837,5 +807,17 @@
   "pdf.batch_downloading": "Downloading {n} PDFs…",
   "pdf.batch_done_ok": "{n} PDFs saved.",
   "pdf.batch_done_partial": "{ok} PDFs saved, {fail} failed.",
-  "reservation.options_download_pdf": "Download PDFs"
+  "reservation.options_download_pdf": "Download PDFs",
+  "wizard.places.parent_subtitle": "Open a parent area first; then pick a sub-place or surface type for reservation.",
+  "wizard.places.child_subtitle": "Parent categories are not selectable. Choose a surface (LED, megalight, …) or sub-place; dates open in a sheet.",
+  "wizard.places.surface_section": "Surface types",
+  "wizard.places.leaves_section": "Sub-areas",
+  "wizard.places.pick_dates": "Pick dates",
+  "wizard.places.selected_then_dates": "{n} places · pick dates",
+  "wizard.preview.title": "Calendar preview of your selection",
+  "wizard.preview.hint": "Review the run range before results. Edit dates to change them.",
+  "wizard.preview.edit_dates": "Edit dates",
+  "wizard.date.sheet_hint": "Tap available days; confirm to open the calendar preview.",
+  "wizard.date.sheet_confirm": "Continue to preview",
+  "wizard.step.preview": "Preview"
 }
