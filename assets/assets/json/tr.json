@@ -480,6 +480,8 @@
   "admin.locations.field_lat": "Enlem",
   "admin.locations.field_lng": "Boylam",
   "admin.ad_units.title": "Reklam Yüzleri",
+  "admin.ad_units.search_hint": "Ad, yer, tür veya A/B yüzü ara",
+  "admin.ad_units.empty_search": "Aramaya uyan yüzey bulunamadı.",
   "admin.ad_units.type_filter_chip": "Tür: {type}",
   "admin.ad_units.empty_for_type_filter": "Bu türde kayıtlı yüzey yok. Filtreyi kaldırarak tüm envanteri görebilirsiniz.",
   "admin.ad_units.add": "Reklam Yüzü Ekle",

@@ -480,6 +480,8 @@
   "admin.locations.field_lat": "Latitude",
   "admin.locations.field_lng": "Longitude",
   "admin.ad_units.title": "Ad Units",
+  "admin.ad_units.search_hint": "Search by name, place, type, or A/B face",
+  "admin.ad_units.empty_search": "No surfaces match this search.",
   "admin.ad_units.type_filter_chip": "Type: {type}",
   "admin.ad_units.empty_for_type_filter": "No units for this type. Clear the filter to see full inventory.",
   "admin.ad_units.add": "Add Ad Unit",
