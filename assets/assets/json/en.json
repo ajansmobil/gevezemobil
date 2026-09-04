@@ -188,6 +188,8 @@
   "home.analysis.preset.week": "7 days",
   "home.analysis.preset.fortnight": "14 days",
   "home.analysis.preset.month": "30 days",
+  "home.analysis.preset.3m": "3 months",
+  "home.analysis.preset.6m": "6 months",
   "home.analysis.preset.custom": "Pick dates",
   "home.analysis.range_help": "Analysis date range",
   "home.analysis.occupied": "Occupied",

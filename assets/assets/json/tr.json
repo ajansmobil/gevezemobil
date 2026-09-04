@@ -188,6 +188,8 @@
   "home.analysis.preset.week": "7 gün",
   "home.analysis.preset.fortnight": "14 gün",
   "home.analysis.preset.month": "30 gün",
+  "home.analysis.preset.3m": "3 ay",
+  "home.analysis.preset.6m": "6 ay",
   "home.analysis.preset.custom": "Tarih seç",
   "home.analysis.range_help": "Analiz tarih aralığı",
   "home.analysis.occupied": "Dolu",
